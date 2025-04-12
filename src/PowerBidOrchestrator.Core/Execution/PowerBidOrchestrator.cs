@@ -32,8 +32,8 @@ public class PowerBidOrchestrator
         }
 
         var executedSteps = new Stack<ISagaStep>();
-        bool resumeMode = !string.IsNullOrEmpty(state.LastCompletedStep);
-        bool skip = resumeMode;
+        var resumeMode = !string.IsNullOrEmpty(state.LastCompletedStep);
+        var skip = resumeMode;
 
         foreach (var descriptor in workflow.GetSteps())
         {
@@ -86,7 +86,8 @@ public class PowerBidOrchestrator
     {
         var cutoff = DateTime.UtcNow.Subtract(maxInactivityTime);
         var sagasToResume = await _db.SagaStates
-            .Where(s => s.WorkflowName == workflow.WorkflowName &&
+            .Where(s => (workflow == null || (workflow != null && s.WorkflowName == workflow.WorkflowName)) &&
+            // .Where(s => 
                         s.Status == "Running" &&
                         s.LastUpdatedAt < cutoff)
             .ToListAsync();
@@ -109,7 +110,11 @@ public class PowerBidOrchestrator
             }
             catch
             {
-                // log and continue, never throw from compensation
+                // log and continue
+                // In a real-world scenario, we might want to handle compensation failures differently
+                // e.g., send alerts, retry, etc.
+                // but we shouldn't stop the compensation process
+                // and try to compensate as much as possible
             }
         }
     }

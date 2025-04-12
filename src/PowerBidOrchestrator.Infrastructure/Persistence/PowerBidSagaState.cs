@@ -12,4 +12,5 @@ public class PowerBidSagaState
     public DateTime? CompletedAt { get; set; }
     public string? LastCompletedStep { get; set; }
     public DateTime? LastUpdatedAt { get; set; }
+    
 }

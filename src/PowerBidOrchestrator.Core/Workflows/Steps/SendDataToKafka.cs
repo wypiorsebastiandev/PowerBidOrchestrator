@@ -10,7 +10,6 @@ public class SendDataToKafka : ISagaStep
     public Task ExecuteAsync(SagaContext context)
     {
         Console.WriteLine("Publishing message to Kafka");
-        throw new NotImplementedException();
         return Task.CompletedTask;
     }
 
