@@ -1,0 +1,12 @@
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\bin\Debug\net9.0\PowerBidOrchestrator.Infrastructure.deps.json
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\bin\Debug\net9.0\PowerBidOrchestrator.Infrastructure.dll
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\bin\Debug\net9.0\PowerBidOrchestrator.Infrastructure.pdb
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\PowerBidOrchestrator.Infrastructure.csproj.AssemblyReference.cache
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\PowerBidOrchestrator.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\PowerBidOrchestrator.Infrastructure.AssemblyInfoInputs.cache
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\PowerBidOrchestrator.Infrastructure.AssemblyInfo.cs
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\PowerBidOrchestrator.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\PowerBidOrchestrator.Infrastructure.dll
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\refint\PowerBidOrchestrator.Infrastructure.dll
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\PowerBidOrchestrator.Infrastructure.pdb
+D:\Repos\.Net\PowerBidOrchestrator\src\PowerBidOrchestrator.Infrastructure\obj\Debug\net9.0\ref\PowerBidOrchestrator.Infrastructure.dll
